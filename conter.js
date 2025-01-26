@@ -1,5 +1,5 @@
 const span = document.querySelector("span")
-let count = parseInt(localStorage?.getItem("count")) ?? 0
+let count = parseInt(localStorage?.getItem("count") ?? 0)
     
 const make = () => {
     span.innerHTML = count
