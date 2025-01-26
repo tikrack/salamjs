@@ -1,1 +1,3 @@
-console.log("hello....");
+document.querySelector("button").addEventListener("click", () => {
+    console.log("ok");
+})
