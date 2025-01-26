@@ -9,6 +9,6 @@ const make = () => {
 make()
 
 document.querySelector("button").addEventListener("click", () => {
-    count++
-    make
+    count = count + 1;
+    make()
 })
