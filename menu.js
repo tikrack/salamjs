@@ -6,7 +6,7 @@ const elm_close_menu = $.querySelector("button.بستن")
 elm_menu_btn.addEventListener("click", () => {
     console.log(elm_menu.style.right);
     
-    if (elm_menu.style.right === "0") {
+    if (elm_menu.style.right === "0px") {
         elm_menu.style.right === "-100%"
     }else {
         elm_menu.style.right = "0"
