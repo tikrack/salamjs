@@ -7,6 +7,8 @@ elm_menu_btn.addEventListener("click", () => {
     
     if (elm_menu.style.right === "0px") {
         console.log("close")
+        console.log(elm_menu)
+        console.log(elm_menu.classList)
         elm_menu.style.right === "-100%"
     }else {
         console.log("open");
